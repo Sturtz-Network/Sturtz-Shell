@@ -1,20 +1,9 @@
 /*
   * Sturtz Shell
   * 
-  * Copyright (c) 2013 Juan Manuel Reyes
-  * 
-  * This program is free software: you can redistribute it and/or modify
-  * it under the terms of the GNU General Public License as published by
-  * the Free Software Foundation, either version 3 of the License, or
-  * (at your option) any later version.
-  * 
-  * This program is distributed in the hope that it will be useful,
-  * but WITHOUT ANY WARRANTY; without even the implied warranty of
-  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  * GNU General Public License for more details.
-  * 
-  * You should have received a copy of the GNU General Public License
-  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  * Copyright (c) 2020 Nathaniel Michael Sturtz
+  *  Sturtz Shell can not be copied and/or distributed without the express
+ * permission of Nathaniel Michael Sturtz or Sturtz Network
  */
 
 #include <stdio.h>
@@ -31,10 +20,6 @@
 #define LIMIT 256 // max number of tokens for a command
 #define MAXLINE 1024 // max number of characters from user input
 
-/**
- * Function used to initialize our shell. We used the approach explained in
- * http://www.gnu.org/software/libc/manual/html_node/Initializing-the-Shell.html
- */
 void init(){
 		// See if we are running interactively
         GBSH_PID = getpid();
@@ -92,8 +77,6 @@ void init(){
 void welcomeScreen(){
         printf("\n\t============================================\n");
         printf("\t               Sturtz Shell\n");
-        printf("\t--------------------------------------------\n");
-        printf("\t             Licensed under GPLv3:\n");
         printf("\t============================================\n");
         printf("\n\n");
 }
