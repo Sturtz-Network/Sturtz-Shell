@@ -1,9 +1,8 @@
-simple-c-shell
+Sturtz Shell
 ==============
+Shell for Sturtz Servers writen in C
 
-Simple and thoroughly commented shell written in C, just for educative purposes. 
-
-Created by [Juan Manuel Reyes](http://juanmareyes.net) as an University exercise, and released under GPLv3.
+(C)2020 Nathaniel Michael Sturtz 
 
 Features
 --------
