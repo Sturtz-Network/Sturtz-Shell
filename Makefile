@@ -7,7 +7,7 @@ OBJ = simple-c-shell.o
 all: simple-c-shell
 
 simple-c-shell: $(OBJ)
-	$(CC) $(CFLAGS) -o ../sturtz $(OBJ) 
+	$(CC) $(CFLAGS) -o sturtz $(OBJ) 
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $<
