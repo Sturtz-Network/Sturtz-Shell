@@ -2,8 +2,6 @@
   * Sturtz Shell
   * 
   * Copyright (c) 2020 Nathaniel Michael Sturtz
-  *  Sturtz Shell can not be copied and/or distributed without the express
- * permission of Nathaniel Michael Sturtz or Sturtz Network
  */
 
 #include <stdio.h>
